@@ -838,22 +838,22 @@ customJS = ["vue.js","index.js","axios.min.js"]
 
 # Options to make output .md files
 # 用于输出 Markdown 格式文档的设置
-# [mediaTypes]
-#   [mediaTypes."text/plain"]
-#     suffixes = ["md"]
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
 
 # # Options to make output .md files
 # # 用于输出 Markdown 格式文档的设置
-# [outputFormats.MarkDown]
-#   mediaType = "text/plain"
-#   isPlainText = false
-#   isHTML = true
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = true
 
 # # Options to make hugo output files
 # # 用于 Hugo 输出文档的设置
  [outputs]
    home = ["HTML", "RSS", "Algolia"]
-##   page = ["HTML", "MarkDown"]
+   page = ["HTML", "MarkDown"]
 ##   section = ["HTML", "RSS"]
 ##   taxonomy = ["HTML", "RSS"]
 ##   taxonomyTerm = ["HTML"]
