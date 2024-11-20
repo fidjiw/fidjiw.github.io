@@ -8,7 +8,7 @@ languageCode = "zh-CN"
 hasCJKLanguage = true
 # 主题
 #theme = ["hugo-search-fuse-js","LoveIt"]
-theme = "FixIt"
+theme = "LoveIt"
 # 网站标题
 title = "xfeng's blog"
 # 是否使用 robots.txt
