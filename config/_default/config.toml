@@ -86,6 +86,14 @@ customJS = ["vue.js","index.js","axios.min.js"]
         url = "/about/"
         title = ""
         weight = 8
+      [[languages.zh-cn.menu.main]]
+        identifier = "books"
+        pre = "<i class="fa-solid fa-book"></i>"
+        post = ""
+        name = "书籍"
+        url = "books.xfeng.io"
+        title = ""
+        weight = 9
 #      [[languages.zh-cn.menu.main]]
 #        #identifier = "docs"
 #        #pre = "<i class='fa-brands fa-golang'></i>"
