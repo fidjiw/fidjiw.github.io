@@ -88,7 +88,7 @@ customJS = ["vue.js","index.js","axios.min.js"]
         weight = 8
       [[languages.zh-cn.menu.main]]
         identifier = "books"
-        pre = "<i class="fa-solid fa-book"></i>"
+        pre = "<i class='fa-solid fa-book'></i>"
         post = ""
         name = "书籍"
         url = "books.xfeng.io"
